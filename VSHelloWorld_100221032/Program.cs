@@ -11,7 +11,6 @@ namespace VSHelloWorld_100221032
     {
         public static void Main(string[] args)
         {
-            //Comentário de Teste
             var host = new WebHostBuilder()
                 .UseKestrel()
                 .UseContentRoot(Directory.GetCurrentDirectory())
