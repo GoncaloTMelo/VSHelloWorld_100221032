@@ -12,6 +12,7 @@ namespace VSHelloWorld_100221032
         public static void Main(string[] args)
         {
             // Bruno polvora
+            // Gonçalo Melo
             var host = new WebHostBuilder()
                 .UseKestrel()
                 .UseContentRoot(Directory.GetCurrentDirectory())
